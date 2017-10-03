@@ -9,3 +9,5 @@ export GOOS=linux
 
 go build -ldflags="-s -w" -o $BINDIR/supply ruby/supply/cli
 go build -ldflags="-s -w" -o $BINDIR/finalize ruby/finalize/cli
+
+sudo apt-get install psql
